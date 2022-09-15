@@ -20,6 +20,10 @@ h1 {
   font-family: "Courgette", cursive;
 }
 
+.fa-crown {
+  font-size: 32px;
+}
+
 h2 {
   font-family: "Courgette", cursive;
   font-size: 0.5rem;
@@ -27,16 +31,16 @@ h2 {
 }
 
 .navbar {
-  background-color: #ecebf0;
+  background: linear-gradient(to right, rgba(236, 235, 240, 0.7), #120c0f);
 }
 .navbar .navbar-brand {
-  color: #c17e9f;
+  color: #50092c;
 }
 .navbar .nav-link {
   font-family: "Mali", cursive;
-  color: #c17e9f;
-  font-weight: 400;
-  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .text-left {
@@ -66,7 +70,7 @@ h2 {
 }
 
 .quote1 {
-  background-color: #ecebf0;
+  background: linear-gradient(to right, rgba(236, 235, 240, 0.1), rgba(236, 235, 240, 0.9));
   padding: 3rem 2rem;
   text-align: center;
   justify-content: center;
@@ -76,7 +80,6 @@ h2 {
 }
 
 #separator {
-  background-color: #ecebf0;
   padding: 3rem 2rem;
   text-align: center;
   justify-content: center;
@@ -94,8 +97,12 @@ h2 {
 }
 
 footer {
-  background-color: #ecebf0;
+  background: linear-gradient(to right, rgba(236, 235, 240, 0.1), rgba(236, 235, 240, 0.9));
 }
 footer p {
   color: #50092c;
+}
+
+body {
+  background: linear-gradient(to right, rgba(193, 126, 159, 0.9), rgba(236, 235, 240, 0.2));
 }/*# sourceMappingURL=main.css.map */

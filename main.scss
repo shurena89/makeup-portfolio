@@ -16,6 +16,9 @@ h1 {
     font-family: $headers;
     
 }
+.fa-crown {
+    font-size: 32px;
+}
 h2 {
 font-family: $headers;
 font-size: 0.5rem;
@@ -23,15 +26,18 @@ color: $small-header;
 
 }
 .navbar {
-    background-color: $primary-color;
+    background:
+            linear-gradient(to right,
+                rgba($primary-color, 0.7),
+                rgba($text-color, 1));
     .navbar-brand {
-        color: $headers-color;
+        color: $small-header;
     }
     .nav-link {
         font-family: $regular-text;
-        color: $headers-color;
-        font-weight: 400;
-        font-size: 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 24px;
     }
 }
 
@@ -65,7 +71,10 @@ color: $small-header;
 }
 
 .quote1 {
-    background-color: $primary-color;
+    background:
+            linear-gradient(to right,
+                rgba($primary-color, 0.1),
+                rgba($primary-color, 0.9));
     
     padding: 3rem 2rem;
    text-align: center;
@@ -75,7 +84,7 @@ color: $small-header;
     font-size: 42px;
 }
 #separator {
-    background-color: $primary-color;
+    
     
         padding: 3rem 2rem;
         text-align: center;
@@ -95,10 +104,20 @@ color: $small-header;
 }
 
 footer {
-    background-color: $primary-color;
+    background:
+            linear-gradient(to right,
+                rgba($primary-color, 0.1),
+                rgba($primary-color, 0.9));
     p {
         color: $small-header;
     }
     
+}
+body {
+    background: 
+    linear-gradient(to right,
+    rgba($headers-color, 0.9),
+    rgba($primary-color, 0.2))
+    ;
 }
 
