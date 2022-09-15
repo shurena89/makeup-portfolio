@@ -57,4 +57,48 @@ color: $small-header;
 #first {
     color: $headers-color;
 }
-/*cards*\
+
+.card-title {
+    color: $small-header;
+    font-family: $regular-text;
+    font-weight: 800;
+}
+
+.quote1 {
+    background-color: $primary-color;
+    
+    padding: 3rem 2rem;
+   text-align: center;
+   justify-content: center;
+color: $small-header;
+    font-family: $headers;
+    font-size: 42px;
+}
+#separator {
+    background-color: $primary-color;
+    
+        padding: 3rem 2rem;
+        text-align: center;
+        justify-content: center;
+        color: $small-header;
+        font-family: $headers;
+        font-size: 42px;
+}
+
+.input-group {
+    
+    background-color: $headers-color;
+}
+.input-group:hover {
+
+    background-color: $primary-color;
+}
+
+footer {
+    background-color: $primary-color;
+    p {
+        color: $small-header;
+    }
+    
+}
+

@@ -57,4 +57,45 @@ h2 {
 
 #first {
   color: #c17e9f;
+}
+
+.card-title {
+  color: #50092c;
+  font-family: "Mali", cursive;
+  font-weight: 800;
+}
+
+.quote1 {
+  background-color: #ecebf0;
+  padding: 3rem 2rem;
+  text-align: center;
+  justify-content: center;
+  color: #50092c;
+  font-family: "Courgette", cursive;
+  font-size: 42px;
+}
+
+#separator {
+  background-color: #ecebf0;
+  padding: 3rem 2rem;
+  text-align: center;
+  justify-content: center;
+  color: #50092c;
+  font-family: "Courgette", cursive;
+  font-size: 42px;
+}
+
+.input-group {
+  background-color: #c17e9f;
+}
+
+.input-group:hover {
+  background-color: #ecebf0;
+}
+
+footer {
+  background-color: #ecebf0;
+}
+footer p {
+  color: #50092c;
 }/*# sourceMappingURL=main.css.map */

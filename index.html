@@ -10,6 +10,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
     <title>portfolio</title>
 </head>
 
@@ -77,7 +78,7 @@
     <!--Section About-->
     <section id="about">
         <div class="container">
-            <h1 class="text-center">About me</h1>
+            <h1 class="text-center pt-lg-4">About me</h1>
            <div class="container-fluid text-center">
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda suscipit repellat nihil, corrupti minus fugiat tempora alias voluptates quo consequuntur veritatis. Quidem saepe vel ipsam quibusdam consequuntur nesciunt, dicta error!</p>
@@ -93,11 +94,12 @@
         </div>
     </section>
     <section id="portfolio">
-        <h2 class="text-center">Resent Works:</h2>
+       
            <!--Cards-portfolio-->
-        <div class="container-lg">
+        
             <!--3 small cards-->
-            <div class="card-group">
+            <h2 class="text-center">Resent Works:</h2>
+            <div class="card-group container p-lg-4">
                 <div class="card">
                     <img src="./images/31.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -126,20 +128,22 @@
                 </div>
             </div>
 
-            <!--One big card-->
+            <!--Quote-->
 
-            <div class="card bg-dark text-white">
-                <img src="./images/big-card.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This content is a little bit longer.</p>
-                    <p class="card-text">Last updated 5 days ago</p>
-                </div>
+            <div class="container-fluid text-center quote1" id="quote1">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+            <div class="container">
+                <h3>For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk
+                with the knowledge that you are never alone.</h3>
+                <p>Audrey Hepburn</p>
+            </div>
+                <span><i class="fa-solid fa-quote-right"></i></span>
             </div>
 
            
             <!--4 cards-->
+            <h2 class="text-center pt-lg-4">Make Up Ideas</h2>
+            <div class="container p-lg-4">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card">
@@ -181,22 +185,56 @@
                     </div>
                 </div>
             </div>
+            </div>
 
-           </div>
-            
-        
+                  
+    </section>
+   
+
+    <!--offer-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"
+                        src="./images/big-card.jpg" alt="girl" /></div>
+                <div class="col-md-6">
+                    
+                    <h1 class="display-5 fw-bolder">Special Offer for Brides</h1>
+                    <div class="fs-5 mb-5">
+                        <span class="text-decoration-line-through">$150.00</span>
+                        <span>$99.00</span>
+                    </div>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos facilis, mollitia alias, provident beatae officiis asperiores obcaecati officia qui expedita nobis iusto sed autem accusantium. Ducimus a hic iste!</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos facilis, mollitia alias, provident
+                        beatae officiis asperiores obcaecati officia qui expedita nobis iusto sed autem accusantium. Ducimus a hic iste!</p>
+                    
+                </div>
+            </div>
+        </div>
     </section>
     
-    
-        <!--Prices section-->
-        <section id="prices">
-            <div class="container-fluid text-center">
-                <h1>Prices</h1>
-                
-            </div>
-        </section>
-        <!--Reviews-->
+        
+       
         <!--Footer-->
+<footer class="py-5">
+    <section id="separator">
+        <div class="container-fluid">
+            <div class="container text-center">
+                <h2 class="p-2">Contact us to book your appointment</h2>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+                    <button class="btn" type="button" id="button-addon2">Button</button>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ratione mollitia doloremque
+                    consequuntur et, modi.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <p class="m-0 text-center">Copyright &copy; Portfolio by Alexandra 2022</p>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
